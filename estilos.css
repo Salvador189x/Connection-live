@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor-inicio{
+    text-align: center;
+    padding: 25px 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    flex-wrap: wrap;
+}
+
+.menu{
+    width: 100%;
+    height: 116px;
+    background-color: #fff;
+    padding: 1px;
+    position: fixed;
+    z-index: 1;
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header img{
+    width: 200px;
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    left: 20px;
+    flex-wrap: wrap;
+}
+
+div a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cadastro{
+    transition: .5s;
+}
+.cadastro:hover{
+    background-color: #000;
+    color: #fff;
+    transform: scale(110%);
+    transition: .5s;
+}
+
+#cadastro1{
+   background-color: #5bdbda;
+   border-radius: 30px;
+   font-size: 1.5em;
+   color: white;
+   opacity: .6;
+   transition: .5s;
+}
+#cadastro1:hover{
+    opacity: 1;
+    transform: scale(110%);
+    transition: .5s;
+}
+
+#imagen-fondo{
+    background-image: url(fondo-con-filtro.png);
+    height: 602px;
+    width: 100%;
+    background-size: cover;
+    top: 117px;
+    position: absolute; 
+}
+
+#consultorios{
+    font-size: 25px;
+    width: 210px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    left: 840px;
+    top: 430px;
+    opacity: .9;
+    transition: .5s;
+}
+#consultorios:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#text-consultorios{
+    top: 35%;
+    left: 8%;
+    position: absolute;
+}
+#edificios-icon{
+    margin-left: 0px;
+    margin-top: 20px;
+    position: absolute;
+}
+#descricao-consultorios{
+    font-size: 15px;
+    padding-top: 125px;
+    left: 8%;
+    position: absolute;
+}
+#profesionales{
+    font-size: 25px;
+    width: 210px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    left: 600px;
+    top: 430px;
+    opacity: .9;
+    transition: .5s;
+}
+#profesionales:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#text-profesionales{
+    top: 35%;
+    left: 14%;
+    position: absolute;
+}
+#descricao-especialistas{
+    font-size: 15px;
+    padding-top: 90px;
+    left: 30px;
+    position: absolute;
+}
+#personas-icon{
+    margin-left: 10px;
+    margin-top: 20px;
+    position: absolute;
+}
+#agendamentos{
+    font-size: 25px;
+    background-color: #fff;
+    width: 210px;
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    left: 360px;
+    top: 430px;
+    opacity: .9;
+    transition: .5s;
+}
+#text-agendamentos{
+    top: 35%;
+    left: 14%;
+    position: absolute;
+}
+
+#agendamentos:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#agendamentos-descricao{
+    font-size: 15px;
+    padding-top: 90px;
+    left: 30px;
+    position: absolute;
+}
+
+#calendario-icon{
+    margin-left: 10px;
+    margin-top: 20px;
+    position: absolute;
+}
+#cuide-da-sua-saude{
+    position: absolute;   
+    font-size: 40px;
+    width: 599px;
+    font-family: 'Secular One', sans-serif ;
+    top: 220px;
+    left: 390px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+#evite-filas{
+    position: absolute;   
+    font-size: 1em;
+    font-family: 'Secular One', sans-serif ;
+    top: 340px;
+    left: 390px;
+    width: 599px;
+    color: white;
+}
+#consulte{
+    position: absolute;   
+    font-size: 1em;
+    font-family: 'Secular One', sans-serif ;
+    top: 190px;
+    left: 390px;
+    width: 599px;
+    color: white;
+}
+#agende-especialistas{
+    font-size: 4em;
+    position: absolute;
+    top: 1000px;
+}
+
