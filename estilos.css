@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -18,13 +19,13 @@ body{
     justify-content: center;
     z-index: 5;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .menu{
     width: 100%;
     height: 116px;
     background-color: #fff;
-    padding: 1px;
     position: fixed;
     z-index: 1;
     justify-content: right;
@@ -33,12 +34,14 @@ body{
 }
 
 header img{
-    width: 200px;
+    width: 20%;
     position: absolute;
     display: flex;
-    margin-top: 30px;
+    margin-top: 15px;
     left: 20px;
     flex-wrap: wrap;
+    max-width: 20%;
+
 }
 
 div a{
@@ -81,11 +84,12 @@ div a{
 
 #imagen-fondo{
     background-image: url(fondo-con-filtro.png);
-    height: 680px;
+    height: 89%;
     width: 100%;
     background-size: cover;
-    top: 117px;
+    top: 11.7%;
     position: absolute; 
+    max-width: 100%;
 }
 
 #consultorios{
@@ -99,6 +103,7 @@ div a{
     top: 430px;
     opacity: .9;
     transition: .5s;
+    box-sizing: border-box;
 }
 #consultorios:hover{
     transform: translateY(-20px);
@@ -132,6 +137,7 @@ div a{
     top: 430px;
     opacity: .9;
     transition: .5s;
+    box-sizing: border-box;
 }
 #profesionales:hover{
     transform: translateY(-20px);
@@ -165,6 +171,7 @@ div a{
     top: 430px;
     opacity: .9;
     transition: .5s;
+    box-sizing: border-box;
 }
 #text-agendamentos{
     top: 35%;
@@ -219,8 +226,140 @@ div a{
     color: white;
 }
 #agende-especialistas{
-    font-size: 4em;
+    font-size: 2em;
     position: absolute;
-    top: 1000px;
+    top: 800px;
+    left: 150px;
+}
+#pestanas__especialistas-descricao{
+    font-size: 1em;
+    position: absolute;
+    top: 850px;
+    left: 150px;
 }
 
+#profesionales_cards{
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+}
+
+#texto{
+    margin-top: 60px;
+    font-size: 1.2em;
+}
+#icono{
+    margin-top: 20px;
+    font-size: 1.4;
+    position: absolute;
+}
+
+#clinica{
+    background-color: #5bdbda;
+    opacity: .7;
+    box-sizing: border-box;
+    border-radius: 10%;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    margin-top: 900px;
+    left: 150px;
+    border: 1px solid black;
+    transition: .5s;
+}
+#clinica:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#Psiquiatria{
+    background-color: #5bdbda;
+    opacity: .7;
+    box-sizing: border-box;
+    border-radius: 10%;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    margin-top: 900px;
+    left: 330px;
+    border: 1px solid black;
+    transition: .5s;
+}
+#Psiquiatria:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#ginecologia{
+    background-color: #5bdbda;
+    opacity: .7;
+    box-sizing: border-box;
+    border-radius: 10%;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    margin-top: 900px;
+    left: 510px;
+    border: 1px solid black;
+    transition: .5s;
+}
+#ginecologia:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#urologia{
+    background-color: #5bdbda;
+    opacity: .7;
+    box-sizing: border-box;
+    border-radius: 10%;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    margin-top: 900px;
+    left: 690px;
+    border: 1px solid black;
+    transition: .5s;
+}
+#urologia:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#pediatria{
+    background-color: #5bdbda;
+    opacity: .7;
+    box-sizing: border-box;
+    border-radius: 10%;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    margin-top: 900px;
+    left: 870px;
+    border: 1px solid black;
+    transition: .5s;
+}
+#pediatria:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
+#dermatologia{
+    background-color: #5bdbda;
+    opacity: .7;
+    box-sizing: border-box;
+    border-radius: 10%;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    margin-top: 900px;
+    left: 1050px;
+    border: 1px solid black;
+    transition: .5s;
+}
+#dermatologia:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+    opacity: 1;
+}
